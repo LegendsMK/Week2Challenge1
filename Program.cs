@@ -5,7 +5,7 @@ class ThermoAnalyzer
     static void Main()
     {
         //Choose a temperature
-        Console.WriteLine("Enter a temperature in Fahrenheit:");
+        Console.WriteLine("Enter a temperature in American/Fahrenheit:");
 
         // Read the input from the user and parse into a double
         if (double.TryParse(Console.ReadLine(), out double temperature))
@@ -41,7 +41,7 @@ class ThermoAnalyzer
             }
             else if (temperature >= 101 && temperature <= 110)
             {
-                Console.WriteLine("Its Time to leave Florida");
+                Console.WriteLine("Its Time to Leave Florida");
             }
             else if (temperature >= 110 && temperature <= 500)
             {
